@@ -1,0 +1,26 @@
+img{
+	z-index: -1;
+	height: 800px;
+	margin-top: 50px;
+	display: block;
+	margin-top: 55px;
+	margin-left: 275px;
+	animation: fadeIn 15s;
+/*	animation: fadeOut 8s;*/
+
+
+}
+.orb{
+	top: 100px;
+}
+@keyframes fadeIn{
+ 0% {opacity: 0;}
+ 12%{opacity: 0;}
+ 25%{opacity: 1;}
+ 50%{opacity: 1;}
+ 100% {opacity: 0;} 
+
+.Tect-text{
+	z-index: 1;
+	color: white;
+}
