@@ -1,18 +1,43 @@
 img{
 	z-index: -1;
-	height: 800px;
-	margin-top: 50px;
-	display: block;
-	margin-top: 55px;
-	margin-left: 275px;
+	height: 170px;
 	animation: fadeIn 15s;
-/*	animation: fadeOut 8s;*/
+	/* animation: fadeOut 8s; */
+	  
+
+	
+	/* Centering the image in middle */
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 
 
 }
 .orb{
-	top: 100px;
+	height: 20vh;
+	/* width: 20vw; */
 }
+
+.tecstasy_text{
+	margin: auto;
+	align-self: center;
+	font-size: 40px;
+	color: -webkit-linear-gradient( rgba(255, 0, 0, 0.938) , orange);
+	z-index: 1; 
+	margin-top: 65vh;
+	width: 160px;
+	/* For the Tecstacy color */
+	background: linear-gradient(to right, red, orange 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.Tect-text{
+	
+} 
+
 @keyframes fadeIn{
  0% {opacity: 0;}
  12%{opacity: 0;}
@@ -20,7 +45,3 @@ img{
  50%{opacity: 1;}
  100% {opacity: 0;} 
 
-.Tect-text{
-	z-index: 1;
-	color: white;
-}
