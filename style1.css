@@ -1,4 +1,4 @@
-img{
+.loading{
 	z-index: -1;
 	height: 170px;
 	animation: fadeIn 15s;
@@ -22,6 +22,7 @@ img{
 }
 
 .tecstasy_text{
+	display: none;
 	margin: auto;
 	align-self: center;
 	font-size: 40px;
@@ -33,10 +34,48 @@ img{
 	background: linear-gradient(to right, red, orange 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+		animation: fadeIn 15s;
 }
-.Tect-text{
-	
-} 
+/*.top-nav-bar{
+	height: 10px;
+	margin-left: 230px;
+	margin-top: 0;
+	position: sticky;
+	background:transparent;
+	z-index: 2  ;
+}*/
+.menu-bar{
+	margin-top: 0;
+	height: 60px;
+	text-align: center;
+}
+
+.menu-bar ul{
+	display: inline-flex;
+}
+
+
+
+.menu-bar li{
+	list-style-type: none;
+	padding: 15px 55px;
+	text-align: center;
+	background-color: transparent;
+
+}
+.menu-bar li a{
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+		cursor: pointer;
+}
+.menu-bar li a:hover{
+	font-size: 20px;
+	font-weight: bold;
+	color: orange;
+	text-decoration: none;
+}
 
 @keyframes fadeIn{
  0% {opacity: 0;}
